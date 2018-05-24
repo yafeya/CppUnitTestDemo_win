@@ -5,7 +5,7 @@ node() {
         stage("Build x64 Debug") {
 		dir('OpenCppCoverageDemo'){
                    sh '''
-		   	devenv "OpenCppCoverageDemo.sln" /rebuild "Debug|x64" /out "error.txt"
+		   	MsBuild "OpenCppCoverageDemo.sln" /p:Configuration="Debug";/p:Platform="x86"
 		   '''
                 }
         }
