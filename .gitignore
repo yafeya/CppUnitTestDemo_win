@@ -24,3 +24,4 @@ Release/
 /OpenCppCoverageDemo/OpenCppCoverageDemo.VC.db
 /.scannerwork
 /OpenCppCoverageDemo/TestResults/*
+/OpenCppCoverageDemo/UnitTestResults/*
