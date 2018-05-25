@@ -25,3 +25,4 @@ Release/
 /.scannerwork
 /OpenCppCoverageDemo/TestResults/*
 /OpenCppCoverageDemo/UnitTestResults/*
+/OpenCppCoverageDemo/CopyLatestCoverageReport.exe
