@@ -1,3 +1,3 @@
-vstest.console.exe "Debug\x64\UnitTestConsole.exe" /EnableCodeCoverage /Platform:x64 /TestAdapterPath:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\tmbsyf1p.5mu"
+vstest.console.exe "Debug\x64\UnitTestConsole.exe" /EnableCodeCoverage /Platform:x64 /TestAdapterPath:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\tmbsyf1p.5mu" /Logger:trx
 
 refer the link: https://developercommunity.visualstudio.com/content/problem/215878/vstestconsoleexe-fails-to-run-the-gtest-unit-tests.html
