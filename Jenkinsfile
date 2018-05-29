@@ -21,9 +21,7 @@ node() {
            }
         }
 		
-		stage("Analyze Code"){
-           withSonarQubeEnv('mySonarQube') {
-              bat 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER' 
-           }
+		stage("Package up"){
+           bat '@echo on echo should package up this stage.'
         }
 }
