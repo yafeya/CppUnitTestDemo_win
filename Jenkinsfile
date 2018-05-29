@@ -17,13 +17,13 @@ node() {
 		
 		stage("Analyze Code"){
            withSonarQubeEnv('mySonarQube') {
-              sh 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER' 
+              bat 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER' 
            }
         }
 		
 		stage("Analyze Code"){
            withSonarQubeEnv('mySonarQube') {
-              sh 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER' 
+              bat 'sonar-scanner -Dsonar.projectVersion=$BRANCH_NAME-$BUILD_NUMBER' 
            }
         }
 }
