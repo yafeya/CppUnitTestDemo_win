@@ -1,1 +1,1 @@
-MsBuild OpenCppCoverageDemo.sln /p:Configuration=Debug /p:Platform=x86
+MsBuild OpenCppCoverageDemo.sln /p:Configuration=Debug /p:Platform=x64
